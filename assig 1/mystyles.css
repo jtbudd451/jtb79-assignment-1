@@ -2,3 +2,43 @@ body {
 	background-color: white;
 
 }
+
+hr {
+	color: black;
+}
+
+footer {
+	background-color: gold;
+	color: purple;
+	font-size: 25px;
+	height: 75px;
+}
+
+
+.jumbotron {
+	height: 350px;
+}
+
+/* . class selector -- # id selector     */
+#jumbo-about {
+	/*background-color: lightgreen;*/
+	background-image: url("img/lion.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#intro {
+	vertical-align: bottom;
+	position: relative;
+	top: 250px;
+	color: purple;
+}
+
+#footer {
+	margin-top: 75px; 
+	padding-top: 10px;
+}
+
+#site {
+	float: right;
+}
